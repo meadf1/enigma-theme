@@ -1,0 +1,60 @@
+/**
+ * @name Amethyst
+ * @description Purple is life, purple is the way, embrace the purple.
+ * @author Mead
+ * @version 1.0.0
+ * @authorId 386259102432493569
+ * @invite meadtown
+ *
+ * @var checkbox			settingsicons_s			"User Settings Icons"					1
+ * @var text				font_s				"General Font"						"gg sans", "Noto Sans"
+ * @var text				accentcolor_s			"Blurple Color: [default] = 88, 101, 242"		88, 101, 242
+ * @var text				accentcolor2_s			"Boost Pink Color: [default] = 255, 115, 250"		255, 115, 250
+ * @var text				linkcolor_s			"Link Color: [default] = 0, 176, 244"			0, 176, 244
+ * @var text				mentioncolor_s			"Mentioned Color: [default] = 250, 166, 26"		250, 166, 26
+ * @var text				successcolor_s			"Success Color: [default] = 59, 165, 92"		59, 165, 92
+ * @var text				warningcolor_s			"Warning Color: [default] = 250, 166, 26"		250, 166, 26
+ * @var text				dangercolor_s			"Danger Color: [default] = 237, 66, 69"			237, 66, 69
+ * @var text				textbrightest_s			"Text Color 1: [default] = 255, 255, 255"		255, 255, 255
+ * @var text				textbrighter_s			"Text Color 2: [default] = 220, 221, 222"		222, 222, 222
+ * @var text				textbright_s			"Text Color 3: [default] = 185, 187, 190"		185, 185, 185
+ * @var text				textdark_s			"Text Color 4: [default] = 142, 146, 151"		140, 140, 140
+ * @var text				textdarker_s			"Text Color 5: [default] = 114, 118, 125"		115, 115, 115
+ * @var text				textdarkest_s			"Text Color 6: [default] = 79, 84, 92"			80, 80, 80
+ * @var text				backgroundaccent_s		"Background Accent: [default] = 64, 68, 75"		50, 50, 50
+ * @var text				backgroundprimary_s		"Background 1: [default] = 54, 57, 63"			30, 30, 30
+ * @var text				backgroundsecondary_s		"Background 2: [default] = 47, 49, 54"			20, 20, 20
+ * @var text				backgroundsecondaryalt_s	"Background 3: [default] = 41, 43, 47"			15, 15, 15
+ * @var text				backgroundtertiary_s		"Background 4: [default] = 32, 34, 37"			10, 10, 10
+ * @var text				backgroundfloating_s		"Background Elevated: [default] = 24, 25, 28"		0, 0, 0
+ */
+
+ @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/DiscordRecolor/DiscordRecolor.css);
+
+ :root {
+     --settingsicons:		1;				
+     --font:				"gg sans", "Noto Sans";		
+     
+     --accentcolor: 			70, 6, 146;
+     --accentcolor2: 		120, 10, 255;
+     --linkcolor: 			98, 34, 160;
+     --mentioncolor: 		56, 12, 107;
+     --successcolor: 		59, 165, 92;
+     --warningcolor: 		250, 166, 26;
+     --dangercolor:  		237, 66, 69;
+     
+     --textbrightest: 		255, 255, 255;
+     --textbrighter: 		140, 140, 140;
+     --textbright: 			119, 8, 246;
+     --textdark: 			190, 190, 190;
+     --textdarker: 			80, 5, 171;
+     --textdarkest: 			56, 12, 107;
+     
+     --backgroundaccent: 		0, 0, 0;			
+     --backgroundprimary: 		14, 14, 16;
+     --backgroundsecondary: 		9, 9, 11;
+     --backgroundsecondaryalt: 	0, 0, 0;
+     --backgroundtertiary: 		12, 12, 14;
+     --backgroundfloating: 		0,0,0;				
+ }
+ 
